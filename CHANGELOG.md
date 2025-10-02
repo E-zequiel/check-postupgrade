@@ -12,6 +12,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [v1.1.1] - 2025-10-02
+### ✨ Added
+- LICENSE (MIT) for clear reuse and distribution
+- CONTRIBUTING.md with contribution guidelines
+- CODE_OF_CONDUCT.md to establish community standards
+- Issue templates:
+  - Bug report
+  - Feature request
+- Pull request template
+- SECURITY.md with vulnerability reporting process
+- Branch protection rules for `main`
+
+### 🔄 Changed
+- Cross-linked README and CHANGELOG for better traceability and discoverability
+
+...
+[View release on GitHub](https://github.com/E-zequiel/check-postupgrade/releases/tag/v1.1.1)
+
+---
+
 ## [v1.1.0] - 2025-10-01
 ### 🚨 Breaking Changes
 - Script output and comments translated from Spanish to English (may affect users or tooling relying on the previous Spanish output format).
