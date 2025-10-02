@@ -27,6 +27,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 📦 Archived
 - Previous script version moved to `archive/check-postupgrade.v.1.0.0.sh` for reference.
 
+...
+[View release on GitHub](https://github.com/E-zequiel/check-postupgrade/releases/tag/v1.1.0)
+
 ---
 
 ## [v1.0.0] - 2025-09-XX
@@ -35,3 +38,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Verification of kernel parameters, initramfs contents, ESP sync, and fstab/crypttab consistency.
 - Logging of results in `~/postupgrade-logs/`.
 
+...
+[View release on GitHub](https://github.com/E-zequiel/check-postupgrade/releases/tag/v1.0.0)

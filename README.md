@@ -100,3 +100,7 @@ The script produces a structured report. Here’s how to read it and what to do 
 
 This script is intended to be run after operating system upgrades, before rebooting the PC, in order to audit the early boot chain and confirm alignment between kernel parameters, initramfs, and ESP, thus avoiding failed reboots. With it you gain control, clarity, and a useful history for diagnosis.
 
+---
+## 📜 Documentation
+- [Changelog](CHANGELOG.md)
+- [Latest Release](https://github.com/E-zequiel/check-postupgrade/releases/latest)
