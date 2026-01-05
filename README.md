@@ -2,7 +2,7 @@
 ---
 ## Introduction and origin
 
-This script was born after a boot incident in `Pop!_OS` where the system stopped asking for the LUKS password, “waited” for the encrypted volume, and ended up in BusyBox (initramfs) without recognizing the USB keyboard. The issue was resolved by aligning kernel parameters, regenerating the initramfs, and synchronizing the ESP, confirming that the failure was in the early boot chain (LUKS unlock, LVM activation, images/flags in the ESP).
+This script was born after a boot incident in `Pop!_OS` 22.04 LTS where the system stopped asking for the LUKS password, “waited” for the encrypted volume, and ended up in BusyBox (initramfs) without recognizing the USB keyboard. The issue was resolved by aligning kernel parameters, regenerating the initramfs, and synchronizing the ESP, confirming that the failure was in the early boot chain (LUKS unlock, LVM activation, images/flags in the ESP).
 The goal of check-postupgrade is to audit, after each update and before reboot, the critical points that can break the boot: effective kernel parameters, initramfs contents, fstab/crypttab consistency, and ESP/boot entries state. With this quick and traceable verification, inconsistencies that lead to emergency mode or BusyBox are prevented.
 Although the script was originally created after a `Pop!_OS` boot incident, it is now portable and works on other Linux distributions (Ubuntu, Debian, Arch, Fedora, etc.).
 
